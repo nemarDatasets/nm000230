@@ -1,0 +1,150 @@
+_dataset:
+  class: Zuo2025
+  code: Zuo2025
+  doi: 10.1038/s41597-025-05767-2
+  interval:
+  - 0
+  - 4
+  n_subjects: 30
+  paradigm: imagery
+acquisition:
+  channel_types:
+    eeg: 30
+  ground: FPz
+  hardware: ZhenTec EEG system
+  line_freq: 50.0
+  montage: standard_1005
+  n_channels: 30
+  reference: CPz
+  sampling_rate: 500.0
+  sensors:
+  - Fp1
+  - Fp2
+  - Fz
+  - F3
+  - F4
+  - F7
+  - F8
+  - FCz
+  - FC3
+  - FC4
+  - FT7
+  - FT8
+  - Cz
+  - C3
+  - C4
+  - T3
+  - T4
+  - CPz
+  - CP3
+  - CP4
+  - TP7
+  - TP8
+  - Pz
+  - P3
+  - P4
+  - T5
+  - T6
+  - Oz
+  - O1
+  - O2
+bci_application:
+  applications:
+  - rehabilitation
+  environment: clinical
+cross_validation:
+  cv_folds: 10
+  cv_method: 10-fold
+  evaluation_type:
+  - within_subject
+data_structure:
+  n_trials: 500
+  n_trials_per_class:
+    left_leg: 250
+    right_leg: 250
+  trials_context: 5 sessions x 100 trials (50 left + 50 right)
+documentation:
+  country: CN
+  data_url: https://figshare.com/articles/dataset/28740260
+  doi: 10.1038/s41597-025-05767-2
+  institution: Air Force Medical Center, Beijing
+  investigators:
+  - Chongwen Zuo
+  - Yi Yin
+  - Haochong Wang
+  - Zhiyang Zheng
+  - Xiaoyan Ma
+  - Yuan Yang
+  - Jue Wang
+  - Shan Wang
+  - Zi-gang Huang
+  - Chaoqun Ye
+  license: CC-BY-4.0
+  publication_year: 2025
+experiment:
+  class_labels:
+  - left_leg
+  - right_leg
+  events:
+    left_leg: 1
+    right_leg: 2
+  feedback_type: none
+  mode: offline
+  n_classes: 2
+  paradigm: imagery
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: visual
+  study_design: 2-class lower-limb MI (left/right leg flexion/extension). 5 sessions, 100 trials per session.
+  synchronicity: cue-based
+  trial_duration: 4.0
+file_format: MAT
+paradigm_specific:
+  detected_paradigm: motor_imagery
+  imagery_duration_s: 4.0
+  imagery_tasks:
+  - left_leg
+  - right_leg
+participants:
+  age_max: 45
+  age_mean: 33.5
+  age_min: 24
+  clinical_population: knee_pain
+  gender:
+    female: 12
+    male: 18
+  health_status: knee pain patients
+  n_subjects: 30
+  species: human
+runs_per_session: 1
+sessions_per_subject: 5
+signal_processing:
+  classifiers:
+  - CSP+LDA
+  - FBCSP+SVM
+  - EEGNet
+  - OTFWRGD
+  feature_extraction:
+  - CSP
+  - FBCSP
+  - deep_learning
+  - Riemannian_geometry
+  frequency_bands:
+    alpha_mu:
+    - 8.0
+    - 15.0
+    beta:
+    - 15.0
+    - 30.0
+  spatial_filters:
+  - CSP
+  - FBCSP
+tags:
+  modality:
+  - Motor
+  pathology:
+  - Knee Pain
+  type:
+  - Clinical
+  - Motor Imagery

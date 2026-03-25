@@ -1,0 +1,45 @@
+{
+	"Name": "Lower-limb MI dataset for knee pain patients from Zuo et al. 2025",
+	"BIDSVersion": "1.9.0",
+	"HEDVersion": "8.4.0",
+	"DatasetType": "derivative",
+	"License": "CC-BY-4.0",
+	"Authors": [
+		"Chongwen Zuo",
+		"Yi Yin",
+		"Haochong Wang",
+		"Zhiyang Zheng",
+		"Xiaoyan Ma",
+		"Yuan Yang",
+		"Jue Wang",
+		"Shan Wang",
+		"Zi-gang Huang",
+		"Chaoqun Ye"
+	],
+	"ReferencesAndLinks": [
+		"https://figshare.com/articles/dataset/28740260"
+	],
+	"GeneratedBy": [
+		{
+			"CodeURL": "https://github.com/NeuroTechX/moabb",
+			"Name": "moabb",
+			"Description": "Mother of All BCI Benchmarks",
+			"Version": "1.5.0"
+		}
+	],
+	"SourceDatasets": [
+		{
+			"DOI": "10.1038/s41597-025-05767-2",
+			"URL": "https://figshare.com/articles/dataset/28740260"
+		}
+	],
+	"Keywords": [
+		"Knee Pain",
+		"Motor",
+		"Clinical",
+		"Motor Imagery",
+		"imagery",
+		"rehabilitation"
+	],
+	"PublicationYear": 2025
+}
