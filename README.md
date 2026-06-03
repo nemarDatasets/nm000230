@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000230-blue)](https://doi.org/10.82901/nemar.nm000230)
+
 # Lower-limb MI dataset for knee pain patients from Zuo et al. 2025
 
 Lower-limb MI dataset for knee pain patients from Zuo et al. 2025.
