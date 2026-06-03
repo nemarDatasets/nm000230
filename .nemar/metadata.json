@@ -1,0 +1,80 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Chongwen Zuo": {
+      "orcid": "0000-0003-4500-9685"
+    },
+    "Yi Yin": {},
+    "Haochong Wang": {},
+    "Zhiyang Zheng": {},
+    "Xiaoyan Ma": {},
+    "Yuan Yang": {},
+    "Jue Wang": {},
+    "Shan Wang": {},
+    "Zi-gang Huang": {},
+    "Chaoqun Ye": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41597-025-05767-2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000230",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000230",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "Lower-limb MI dataset for knee pain patients from Zuo et al. 2025",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "6.2 GB (119 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "This dataset comprises lower-limb motor imagery EEG recordings from 30 knee pain patients across 5 sessions, with 500 trials total (250 per class) of left and right leg imagery tasks. Recorded at 500 Hz using a 30-channel ZhenTec EEG system with standard 10-05 montage, the dataset supports brain-computer interface development and motor rehabilitation applications in clinical populations. Multiple classification approaches including CSP+LDA, FBCSP+SVM, EEGNet, and Riemannian geometry methods have been evaluated on this dataset.",
+  "methods_description": "EEG data were acquired using a ZhenTec EEG system with 30 channels arranged in standard 10-05 montage (reference: CPz, ground: FPz) at 500 Hz sampling rate. Participants performed cue-based motor imagery of left and right leg flexion/extension in 5 sessions of 100 trials each (50 trials per class per session), with 4-second trial duration and visual stimulus presentation. No feedback was provided during the offline paradigm.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "knee pain"
+    },
+    {
+      "term": "rehabilitation"
+    },
+    {
+      "term": "lower limb"
+    },
+    {
+      "term": "clinical neurophysiology"
+    }
+  ],
+  "source_hash": "9329b39ef43da032abcdf6757681b4402273f4abe04990762d0ba390b0249a81"
+}
