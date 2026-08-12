@@ -1,6 +1,11 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
+  "title": "Lower-limb MI dataset for knee pain patients from Zuo et al. 2025",
+  "description": "A lower-limb motor imagery EEG dataset comprising 30 knee pain patients performing left and right leg flexion/extension imagery tasks across 5 sessions. The dataset contains 500 trials (250 per class) recorded at 500 Hz from 30 EEG channels using a standard 10-05 montage. This clinical dataset supports the development and evaluation of brain-computer interface classifiers for motor rehabilitation applications in patients with knee pain.",
+  "methods_description": "EEG data were acquired from 30 knee pain patients (12 female, 18 male; mean age 33.5 years) using a ZhenTec EEG system with 30 channels at 500 Hz sampling rate. Participants performed cue-based motor imagery of left and right leg movements in a 2-class paradigm across 5 sessions, with 100 trials per session (50 per class). Visual cues indicated the imagery task, with 4-second trial duration and no feedback provided. Reference electrode was CPz and ground was FPz, with 50 Hz line frequency.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Chongwen Zuo": {
       "orcid": "0000-0003-4500-9685"
@@ -15,6 +20,32 @@
     "Zi-gang Huang": {},
     "Chaoqun Ye": {}
   },
+  "keywords": [
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "knee pain"
+    },
+    {
+      "term": "rehabilitation"
+    },
+    {
+      "term": "lower-limb motor imagery"
+    },
+    {
+      "term": "clinical neurophysiology"
+    },
+    {
+      "term": "clinical"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1038/s41597-025-05767-2",
@@ -27,54 +58,27 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000230",
+      "identifier": "https://nemar.org/dataset/nm000230",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     }
   ],
-  "title": "Lower-limb MI dataset for knee pain patients from Zuo et al. 2025",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "6.2 GB (119 files)"
+    "20.8 GB (237 files)"
   ],
   "formats": [
     ".bdf",
     ".json",
+    ".mat",
     ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "description": "This dataset comprises lower-limb motor imagery EEG recordings from 30 knee pain patients across 5 sessions, with 500 trials total (250 per class) of left and right leg imagery tasks. Recorded at 500 Hz using a 30-channel ZhenTec EEG system with standard 10-05 montage, the dataset supports brain-computer interface development and motor rehabilitation applications in clinical populations. Multiple classification approaches including CSP+LDA, FBCSP+SVM, EEGNet, and Riemannian geometry methods have been evaluated on this dataset.",
-  "methods_description": "EEG data were acquired using a ZhenTec EEG system with 30 channels arranged in standard 10-05 montage (reference: CPz, ground: FPz) at 500 Hz sampling rate. Participants performed cue-based motor imagery of left and right leg flexion/extension in 5 sessions of 100 trials each (50 trials per class per session), with 4-second trial duration and visual stimulus presentation. No feedback was provided during the offline paradigm.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "brain-computer interfaces"
-    },
-    {
-      "term": "knee pain"
-    },
-    {
-      "term": "rehabilitation"
-    },
-    {
-      "term": "lower limb"
-    },
-    {
-      "term": "clinical neurophysiology"
-    }
-  ],
-  "source_hash": "9329b39ef43da032abcdf6757681b4402273f4abe04990762d0ba390b0249a81"
+  "source_hash": "a248952b181a4ebf4f3edbe01fa5e5e6e87763c4916ef97929ee27bc4815b654"
 }
