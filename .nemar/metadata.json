@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Lower-limb MI dataset for knee pain patients from Zuo et al. 2025",
   "description": "A lower-limb motor imagery EEG dataset comprising 30 knee pain patients performing left and right leg flexion/extension imagery tasks across 5 sessions. The dataset contains 500 trials (250 per class) recorded at 500 Hz from 30 EEG channels using a standard 10-05 montage. This clinical dataset supports the development and evaluation of brain-computer interface classifiers for motor rehabilitation applications in patients with knee pain.",
-  "methods_description": "EEG data were acquired from 30 knee pain patients (12 female, 18 male; mean age 33.5 years) using a ZhenTec EEG system with 30 channels at 500 Hz sampling rate. Participants performed cue-based motor imagery of left and right leg movements in a 2-class paradigm across 5 sessions, with 100 trials per session (50 per class). Visual cues indicated the imagery task, with 4-second trial duration and no feedback provided. Reference electrode was CPz and ground was FPz, with 50 Hz line frequency.",
+  "methods_description": "This derivative dataset was generated from the original lower-limb motor imagery EEG data using MOABB (Mother of All BCI Benchmarks) version 1.5.0. EEG data were originally acquired from 30 knee pain patients (mean age 33.5 years, 12 female/18 male) using a ZhenTec EEG system with 30 channels at 500 Hz sampling rate. Participants performed cue-based motor imagery of left and right leg movements in 5 sessions, each containing 100 trials (50 left, 50 right leg imagery). Trial duration was 4 seconds with visual cue presentation. Reference electrode was CPz and ground was FPz. The derivative processing includes multiple feature extraction methods (CSP, FBCSP, deep learning, Riemannian geometry) and evaluation with 10-fold cross-validation for brain-computer interface classifier development.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -37,13 +37,10 @@
       "term": "rehabilitation"
     },
     {
-      "term": "lower-limb motor imagery"
+      "term": "lower limb"
     },
     {
       "term": "clinical neurophysiology"
-    },
-    {
-      "term": "clinical"
     }
   ],
   "related_identifiers": [
@@ -80,5 +77,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "a248952b181a4ebf4f3edbe01fa5e5e6e87763c4916ef97929ee27bc4815b654"
+  "source_hash": "544236eca6b510ad2edf4a4f6449d7e78dbd0a58c1b5e016bb6dac11590ea691"
 }
